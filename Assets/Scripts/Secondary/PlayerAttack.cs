@@ -22,10 +22,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.O) && cooldownTimer > attackCooldown && playerMovement.canAttack())
-        {
-            Shoot();
-        }
+        // if (Input.GetKey(KeyCode.O) && cooldownTimer > attackCooldown && playerMovement.canAttack())
+        // {
+        //     Shoot();
+        // }
         
         cooldownTimer += Time.deltaTime;
     }
